@@ -714,6 +714,8 @@ def readCommand(argv):
   args['numTraining'] = options.numTraining
   args['record'] = options.record
   args['catchExceptions'] = options.catchExceptions
+
+  print (args)
   return args
 
 def randomLayout(seed=None):
